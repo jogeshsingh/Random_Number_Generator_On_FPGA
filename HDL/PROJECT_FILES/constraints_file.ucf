@@ -1,0 +1,27 @@
+ //***clk******///
+ NET "i_clk"      LOC = V10 | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz;
+ /////*************DIP SWITCHES**********///
+  NET "rst_n"         LOC = C17  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
+  
+
+############################################switch##################################
+    NET "data_in"           LOC = M18   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; 
+    
+	 
+	 
+	 //////***********seven_seg_display****************///
+	  NET "Seg_OUT[0]"     LOC = A5  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+    NET "Seg_OUT[1]"     LOC = C6  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+    NET "Seg_OUT[2]"     LOC = D6  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "Seg_OUT[3]"     LOC = C5  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "Seg_OUT[4]"     LOC = C4  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+    NET "Seg_OUT[5]"     LOC = A4  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "Seg_OUT[6]"     LOC = B4  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "Seg_OUT[7]"     LOC = A3  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	
+	#####################################################################
+	////********sev_seg_enable*********///
+	 NET "an[2]"           LOC = B3  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;                            
+    NET "an[1]"           LOC = A2  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+    NET "an[0]"           LOC = B2  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+   
