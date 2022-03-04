@@ -3,3 +3,4 @@ This project is based upon generating random numbers which are predominantly use
 Spartan-6 XC6SLX9 MimasV2 FPGA was used for implementation 
 #verilog
 #FPGA
+link-: https://youtu.be/JpG_taPKLyY
